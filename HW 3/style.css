@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.cage {
+  margin: 30px auto;
+  width: 115px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.win {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btnBox {
+  width: 75px;
+  margin: 10px auto;
+}
+
+.restart {
+  padding: 5px 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.restart:hover {
+  background-color: rgb(85, 102, 255);
+}
+
+.field {
+  cursor: pointer;
+  border: 3px solid rgb(69, 6, 141);
+  width: 30px;
+  height: 30px;
+}
+.field:disabled {
+  background-color: inherit;
+  color: rgb(0, 0, 0);
+}/*# sourceMappingURL=style.css.map */
